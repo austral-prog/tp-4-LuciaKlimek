@@ -12,5 +12,4 @@ def line():
     print(f"\tY = {A}X + {float(B)}\n")
     print(f"Dados los siguientes puntos:\n\tP1 ({float(X1)}, {float(X1*A+B)})\n\tP2 ({float(X2)}, {float(X2*A+B)})")
     dist = math.dist([X1, X1*A+B], [X2, X2*A+B])
-    print(f"""\nLa distancia entre ellos es: {dist}""")
-
+    print(f"""\nLa distancia entre ellos es: {dist}""")
